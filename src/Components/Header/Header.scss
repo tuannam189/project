@@ -1,0 +1,46 @@
+// .logo :hover{
+//     border: 1px solid;
+//     width: 48px;
+//     border-radius: 50%;
+//     background: #b4aaaa6e
+// }
+
+// .logo{
+//     display: flex;
+//     justify-content: center;
+// }
+
+// .searchBoxInput {
+//     border: 1px solid;
+//     border-radius: 10px;
+//     padding: 0px 0px 0px 16px;
+//     height: 100%;
+// }
+
+// .searchBoxInput :hover{
+//     box-shadow: rgb(0 125 255/50%) 0 0 0 4px;
+// }
+
+// .Button :hover {
+//     cursor: pointer;
+// }
+
+.header {
+    padding: 1rem 0;
+    font-size: 1.25rem;
+  
+    &__title {
+      font-weight: bold;
+    }
+  
+    &__link {
+      color: #000;
+      transition: all 0.25s ease-in-out 0s;
+  
+      &--active,
+      &:hover {
+        text-decoration: none;
+        color: red;
+      }
+    }
+  }
